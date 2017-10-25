@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/UAVPreparer" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
