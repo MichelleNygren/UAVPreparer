@@ -9,15 +9,15 @@
 [general]
 name=UAV Preparer
 qgisMinimumVersion=2.0
-description=This plug-in examines height properties on a DSM
+description=This plugin examines height properties on a DSM
 version=0.1
-author=Aifang Chen
-email=aifang.chen@gu.se
+author=Michelle Nygren
+email=michelle.nygren@gu.se
 
 about=Examine
 
-tracker=https://github.com/aifchen/UAVPreparer/issues
-repository=https://github.com/aifchen/UAVPreparer
+tracker=https://github.com/MichelleNygren/UAVPreparer/issues
+repository=https://github.com/MichelleNygren/UAVPreparer
 # End of mandatory metadata
 
 # Recommended items:

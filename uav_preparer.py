@@ -170,10 +170,10 @@ class UAVPreparer:
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        icon_path = ':/plugins/UAVPreparer/icon.png'
+        icon_path = ':/plugins/UAVPreparer/icon2.png'
         self.add_action(
             icon_path,
-            text=self.tr(u''),
+            text=self.tr(u'UnManned Aerial Vehicle Preparer'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
@@ -280,6 +280,8 @@ class UAVPreparer:
         numformat = '%d ' +  '%6.2f ' * 3
         headertext = 'ID    Mean    Max     Min'
         np.savetxt(self.outputfile, newarray, fmt=numformat, header=headertext, delimiter=' ')
+
+        open(self.outputfile, 'r')
 
         self.iface.messageBar().pushMessage('UAV Preparer. Operation Successful!', level=QgsMessageBar.INFO, duration=5)
 
