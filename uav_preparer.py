@@ -7,8 +7,8 @@
                               -------------------
         begin                : 2017-10-25
         git sha              : $Format:%H$
-        copyright            : (C) 2017 by Aifang Chen
-        email                : aifang.chen@gu.se
+        copyright            : (C) 2017 by Michelle Nygren
+        email                : michelle.nygren@gu.se
  ***************************************************************************/
 
 /***************************************************************************
